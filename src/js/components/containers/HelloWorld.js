@@ -16,6 +16,6 @@ class HellWorld extends Component {
 }
 export default HellWorld;
 
-const wrapper = document.getElementById('index');
-wrapper ? ReactDOM.render(<HellWorld />, wrapper) : false;
+// const wrapper = document.getElementById('index');
+// wrapper ? ReactDOM.render(<HellWorld />, wrapper) : false;
 
