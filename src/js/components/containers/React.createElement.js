@@ -1,10 +1,10 @@
-class createElementComponent extends React.Component {
+import React, { Component } from 'react';
+// import ReactDOM from 'react-dom';
+
+class CreateElementComponent extends React.Component {
   render() {
-    return React.createElement('div', null, this.props.toWhat);
+    return React.createElement('div', null, this.props.title);
   }
 }
 
-ReactDOM.render(
-  React.createElement(Hello, {toWhat: 'I am the React.createElement component'}, null),
-  document.getElementById('root')
-);
+export default CreateElementComponent;
