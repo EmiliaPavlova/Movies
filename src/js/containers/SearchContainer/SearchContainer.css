@@ -1,0 +1,10 @@
+.label {
+  text-transform: uppercase;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.searchWrapper {
+  width: 100%;
+}
