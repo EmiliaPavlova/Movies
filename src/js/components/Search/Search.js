@@ -5,10 +5,10 @@ import './Search.css';
 const Search = ({ title, conditions, actionButton }) => (
   <Fragment>
     <div className='title'>{title}</div>
-    <input></input>
-    <div>
+    <input />
+    <div className='buttons'>
       {!!conditions && conditions}
-      {actionButton}
+      <span className='actionButton'>{actionButton}</span>
     </div>
   </Fragment>
   )

@@ -7,11 +7,16 @@ const Button = ({
   className,
   selected,
   onClick = () => { },
-}) => (
-  <button onClick={onClick} {...rest}>
-    {title}
-  </button>
-)
+  ...rest
+}) => {
+  const classNames = `button ${className ? className : ''} ${selected ? 'selected' : ''}`;
+
+  return (
+    <button className={classNames} onClick={onClick} {...rest}>
+      {title}
+    </button>
+  )
+}
 
 Button.propTypes = {
   title: PropTypes.string,

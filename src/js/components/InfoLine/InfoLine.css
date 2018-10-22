@@ -1,0 +1,22 @@
+.infoLine {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  padding-left: 80px;
+  padding-right: 80px;
+  font-weight: bold;
+  font-size: 12px;
+  background: #F5F5F5;
+}
+
+.rightSection {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+  min-width: 180px;
+}
+
+.selected {
+  color: #F55263;
+}

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Search from '../../components/Search/Search';
+import Button from '../../components/Button/Button';
 import './SearchContainer.css';
 
 const conditions = ['Title', 'Genre'];
@@ -10,8 +11,9 @@ const renderConditions = (conditions) => {
       Search by
       {conditions.map((item, index) => {
         return (
-          <div key={index}>
-            <button onClick={onClick}>{item}</button>
+          <div key={index} className='condition'>
+            {/* TODO: add logic for selected */}
+            <Button title={item} className='searchButton' onClick={onClick} />
           </div>
         )
       })}
@@ -24,7 +26,7 @@ const onClick = () => {
 }
 
 const actionButton = (
-  <button type='submit' onClick={onClick}>Search</button>
+  <Button title='Search' type='submit' className='submitButton' onClick={onClick} />
 );
 
 class SearchContainer extends Component {
