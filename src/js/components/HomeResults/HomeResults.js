@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Button from '../Button/Button';
-import './InfoLine.css';
+import './HomeResults.css';
 
-const InfoLine = ({
+const HomeResults = ({
   count = 5,
   sortBy = 'release_date'
 }) => {
@@ -26,9 +26,9 @@ const InfoLine = ({
   )
 }
 
-InfoLine.propTypes = {
+HomeResults.propTypes = {
   count: PropTypes.number,
   sortBy: PropTypes.string
 };
 
-export default InfoLine;
+export default HomeResults;

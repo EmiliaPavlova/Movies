@@ -3,14 +3,14 @@ import Header from '../../containers/Header/Header';
 import InfoLine from '../../containers/InfoLineContainer/InfoLineContainer';
 import Results from '../../containers/Results/Results';
 import Footer from '../../containers/Footer/Footer';
-import './Home.css';
+import './Details.css';
 
-class Home extends Component {
+class Details extends Component {
   render() {
     return (
       <Fragment>
         <Header />
-        <InfoLine />
+        <InfoLine page='home' />
         <Results />
         <Footer />
       </Fragment>
@@ -18,4 +18,4 @@ class Home extends Component {
   }
 }
 
-export default Home;
+export default Details;

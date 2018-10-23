@@ -1,7 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Movie from '../Movie/Movie';
 import './Grid.css';
 
+// TODO: change this with real data
 const mockData = [
   {
     "id": 8388,
@@ -181,15 +183,15 @@ const mockData = [
   }
 ];
 
-const Grid = ({ children }) => {
-  const movie = mockData.map(item => {
-    console.log(item);
-    console.log(item.poster_path);
-    console.log(item.title);
-  })
-  return (
-    <div>asd</div>
-  )
-}
+const Grid = ({ children }) => (
+  <div className='row'>{mockData.map(item => {
+    return (
+      <div className='movie' key={item.id}>
+        <Movie {...item} />
+      </div>
+    )
+  })}
+  </div>
+)
 
 export default Grid;
