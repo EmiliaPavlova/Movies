@@ -1,33 +1,30 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 import Button from '../Button/Button';
 import './HomeResults.css';
 
 const HomeResults = ({
-  count = 5,
-  sortBy = 'release_date'
+  moviesFound,
+  sortBy
 }) => {
-  const hasResult = count > 0;
-  const result = count > 0
-    ? hasResult
-      ? `${count} movie found`
-      : `${count} movies found`
-    : '';
+  const result = moviesFound > 1
+    ? `${moviesFound} movies found`
+    : `${moviesFound} movie found`;
 
   return (
-    <div className='infoLine'>
+    <Fragment>
       <div>{result}</div>
-      {hasResult && <div className='rightSection'>
+      <div className='rightSection'>
         Sort by
         <Button title='release date' className={sortBy === 'release_date' ? 'selected' : ''} />
         <Button title='rating' className={sortBy === 'vote_average' ? 'selected' : ''} />
-      </div>}
-    </div>
+      </div>
+    </Fragment>
   )
 }
 
 HomeResults.propTypes = {
-  count: PropTypes.number,
+  moviesFound: PropTypes.number,
   sortBy: PropTypes.string
 };
 

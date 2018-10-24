@@ -1,12 +1,12 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 
 const DetailsResults = ({ genre = 'Drama' }) => {
 
   return (
-    <div className='infoLine'>
+    <Fragment>
       <div>Films by {genre} genre</div>
-    </div>
+    </Fragment>
   )
 }
 

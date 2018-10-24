@@ -6,6 +6,14 @@ import Footer from '../../containers/Footer/Footer';
 import './Home.css';
 
 class Home extends Component {
+
+/*
+  // Testing ErrorBoundary
+  componentDidMount() {
+    throw new Error("An error has occured in Home component!");
+  }
+*/
+
   render() {
     return (
       <Fragment>

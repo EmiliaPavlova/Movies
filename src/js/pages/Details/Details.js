@@ -6,6 +6,7 @@ import Footer from '../../containers/Footer/Footer';
 import './Details.css';
 
 class Details extends Component {
+
   render() {
     return (
       <Fragment>
