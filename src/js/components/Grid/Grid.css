@@ -1,0 +1,19 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.row:after {
+  content: '';
+  flex: auto;
+}
+
+.movie {
+  width: 30%;
+  height: auto;
+  margin: 10px;
+  object-fit: contain;
+}

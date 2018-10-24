@@ -1,0 +1,28 @@
+.image {
+  margin-top: 20px;
+}
+
+.image img {
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 5px 5px;
+}
+
+.movieTitle {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.movieDate {
+  padding: 0 5px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.genre {
+  padding-left: 5px;
+}

@@ -1,0 +1,10 @@
+.rightSection {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+  min-width: 180px;
+}
+
+.selected {
+  color: #F55263;
+}

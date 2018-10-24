@@ -24,10 +24,19 @@ module.exports = {
       {
         test: /\.css$/,
         use: [
+          "style-loader",
           MiniCssExtractPlugin.loader,
           "css-loader"
         ]
-      }
+      },
+      {
+        test: /\.(png|jpg|gif|eot|ttf|woff|woff2)$/,
+        loader: 'file-loader',
+        options: {
+          name: '[name].[hash].[ext]',
+          outputPath: './assets'
+        }
+     },
     ]
   },
   plugins: [
@@ -38,15 +47,15 @@ module.exports = {
       filename: "./index.html"
     }),
     new MiniCssExtractPlugin({
-      filename: "styles.css",
-      chunkFilename: "[id].css"
+      filename: "styles.[chunkhash].css"
     })
   ],
   entry: {
     app: './src/index.js'
   },
   output: {
-    filename: 'main.js',
+    // filename: 'main.js',
+    filename: '[name].[chunkhash].js',
     path: path.resolve(__dirname, 'dist')
   }
 };
