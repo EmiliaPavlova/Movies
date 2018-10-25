@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import HomeResults from '../../components/HomeResults/HomeResults';
 import DetailsResults from '../../components/DetailsResults/DetailsResults';
-import './InfoLiveContainer.css';
+import './InfoLineContainer.css';
 
 // const content = {
 //   home: 'HomeResults',
