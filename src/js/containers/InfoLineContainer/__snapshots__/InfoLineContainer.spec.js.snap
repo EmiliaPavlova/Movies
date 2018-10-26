@@ -15,3 +15,43 @@ exports[`InfoLineContainer Snapshot matches the snapshot 1`] = `
   </div>
 </InfoLineContainer>
 `;
+
+exports[`InfoLineContainer Snapshot matches the snapshot for Details page: Details page 1`] = `
+<InfoLineContainer
+  moviesFound={2}
+  page="details"
+  sortBy="release_date"
+>
+  <div
+    className="infoLine"
+  >
+    <DetailsResults>
+      <div>
+        Films by 
+        Drama
+         genre
+      </div>
+    </DetailsResults>
+  </div>
+</InfoLineContainer>
+`;
+
+exports[`InfoLineContainer Snapshot matches the snapshot for Home page: Home page 1`] = `
+<InfoLineContainer
+  moviesFound={2}
+  page="home"
+  sortBy="release_date"
+>
+  <div
+    className="infoLine"
+  >
+    <DetailsResults>
+      <div>
+        Films by 
+        Drama
+         genre
+      </div>
+    </DetailsResults>
+  </div>
+</InfoLineContainer>
+`;
