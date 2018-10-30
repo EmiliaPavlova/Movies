@@ -11,13 +11,13 @@ const componentProps = (overrides = {}) => ({
 const mountSearchContainer = props => mount(<SearchContainer {...props} />);
 
 describe('SearchContainer', () => {
-  describe('Snapshot', () => {
+  describe('SearchContainer attributes', () => {
     it('matches the snapshot', () => {
       const wrapper = mountSearchContainer();
       expect(wrapper).toMatchSnapshot();
-    })
+    });
   });
-  describe('Functions', () => {
+  describe('Event handlers', () => {
     it('calls onClick on click event', () => {
       const onClickMock = jest.fn();
       const props = componentProps({ onClick: onClickMock });
@@ -25,6 +25,10 @@ describe('SearchContainer', () => {
       const button = wrapper.find('button').at(0);
       button.simulate('click');
       // expect(onClickMock).toHaveBeenCalled();
-    })
-  })
+
+      const actionButton = wrapper.find('button').at(2);
+      actionButton.simulate('click');
+      // expect(onClickMock).toHaveBeenCalled();
+    });
+  });
 });

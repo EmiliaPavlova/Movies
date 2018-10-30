@@ -27,6 +27,20 @@ describe('HomeResults', () => {
       const props = componentProps({ moviesFound: 1 });
       const wrapper = mountHomeResults(componentProps(props));
       expect(wrapper).toMatchSnapshot('One movie found');
-    })
+    });
+  });
+  describe('Event handlers', () => {
+    it('calls onClick on click event', () => {
+      const onClickMock = jest.fn();
+      const props = componentProps({ onClick: onClickMock });
+      const wrapper = mountHomeResults(props);
+      const button = wrapper.find('button').at(0);
+      button.simulate('click');
+      // expect(onClickMock).toHaveBeenCalled();
+
+      const actionButton = wrapper.find('button').at(1);
+      actionButton.simulate('click');
+      // expect(onClickMock).toHaveBeenCalled();
+    });
   });
 });

@@ -1,6 +1,7 @@
 import React from 'react';
-import { mount, shallow } from 'enzyme';
+import { mount } from 'enzyme';
 import ErrorBoundary from './ErrorBoundary';
+import Home from '../../pages/Home/Home';
 
 const componentProps = (overrides = {}) => ({
   children: <div>Component with an error</div>,
@@ -8,6 +9,11 @@ const componentProps = (overrides = {}) => ({
 });
 
 const mountErrorBoundary = props => mount(<ErrorBoundary {...props} />);
+
+const ProblemChild = () => {
+  throw new Error('Error thrown from problem child');
+  return <div>Error</div>;
+}
 
 describe('ErrorBoundary', () => {
   describe('ErrorBoundary attributes', () => {
@@ -25,8 +31,16 @@ describe('ErrorBoundary', () => {
         errorInfo: { componentStack: 'some additional info' }
       });
       wrapper.update();
-      console.log(wrapper.html());
       expect(wrapper.html()).toContain('Something went wrong');
+    });
+    it('should call componentDidCatch', () => {
+      const didMountSpy = jest.spyOn(ErrorBoundary.prototype, 'componentDidCatch');
+      // mountErrorBoundary(componentProps());
+      mount(<ErrorBoundary><ProblemChild /></ErrorBoundary>);
+
+      expect(didMountSpy).toHaveBeenCalledTimes(1);
+
+      didMountSpy.mockClear();
     });
   })
 });

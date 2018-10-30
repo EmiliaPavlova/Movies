@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`SearchContainer Snapshot matches the snapshot 1`] = `
+exports[`SearchContainer SearchContainer attributes matches the snapshot 1`] = `
 <SearchContainer>
   <div
     className="searchWrapper"
