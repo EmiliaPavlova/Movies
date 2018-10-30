@@ -9,20 +9,18 @@ import './InfoLineContainer.css';
 //   details: 'DetailsResults'
 // };
 
-const page = 'details';
-const moviesFound = 2;
-const sortBy = 'release_date';
-
 // console.log(content[page]);
 
 class InfoLineContainer extends Component {
   render() {
+    const { page, moviesFound, sortBy } = this.props;
+
     const showHomeLine = page === 'home' && moviesFound > 0;
     const showDetailsLine = page === 'details';
     return (
       <div className='infoLine'>
         { showHomeLine && <HomeResults moviesFound={moviesFound} sortBy={sortBy} />}
-        { showDetailsLine && <DetailsResults /> }
+        { showDetailsLine && <DetailsResults genre='Drama' /> }
       </div>
     )
   }
@@ -31,7 +29,7 @@ class InfoLineContainer extends Component {
 InfoLineContainer.propTypes = {
   page: PropTypes.oneOf(['home', 'details']),
   moviesFound: PropTypes.number,
-  sortBy: PropTypes.string
+  sortBy: PropTypes.oneOf(['title', 'release_date'])
 };
 
 export default InfoLineContainer;

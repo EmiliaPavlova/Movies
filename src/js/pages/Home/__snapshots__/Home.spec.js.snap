@@ -1,0 +1,731 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Home attributes matches the snapshot 1`] = `
+<Home>
+  <Header>
+    <div
+      className="background"
+    >
+      <LogoContainer>
+        <Logo
+          text="netflixroulette"
+        >
+          <div
+            className="logo"
+          >
+            netflixroulette
+          </div>
+        </Logo>
+      </LogoContainer>
+      <SearchContainer>
+        <div
+          className="searchWrapper"
+        >
+          <Search
+            actionButton={
+              <Button
+                className="submitButton"
+                onClick={[Function]}
+                title="Search"
+                type="submit"
+              />
+            }
+            conditions={
+              <div
+                className="label"
+              >
+                Search by
+                <div
+                  className="condition"
+                >
+                  <Button
+                    className="searchButton"
+                    onClick={[Function]}
+                    title="Title"
+                  />
+                </div>
+                <div
+                  className="condition"
+                >
+                  <Button
+                    className="searchButton"
+                    onClick={[Function]}
+                    title="Genre"
+                  />
+                </div>
+              </div>
+            }
+            title="Find your movie"
+          >
+            <div
+              className="title"
+            >
+              Find your movie
+            </div>
+            <input />
+            <div
+              className="buttons"
+            >
+              <div
+                className="label"
+              >
+                Search by
+                <div
+                  className="condition"
+                  key="0"
+                >
+                  <Button
+                    className="searchButton"
+                    onClick={[Function]}
+                    title="Title"
+                  >
+                    <button
+                      className="button searchButton "
+                      onClick={[Function]}
+                    >
+                      Title
+                    </button>
+                  </Button>
+                </div>
+                <div
+                  className="condition"
+                  key="1"
+                >
+                  <Button
+                    className="searchButton"
+                    onClick={[Function]}
+                    title="Genre"
+                  >
+                    <button
+                      className="button searchButton "
+                      onClick={[Function]}
+                    >
+                      Genre
+                    </button>
+                  </Button>
+                </div>
+              </div>
+              <span
+                className="actionButton"
+              >
+                <Button
+                  className="submitButton"
+                  onClick={[Function]}
+                  title="Search"
+                  type="submit"
+                >
+                  <button
+                    className="button submitButton "
+                    onClick={[Function]}
+                    type="submit"
+                  >
+                    Search
+                  </button>
+                </Button>
+              </span>
+            </div>
+          </Search>
+        </div>
+      </SearchContainer>
+    </div>
+  </Header>
+  <InfoLineContainer
+    moviesFound={2}
+    page="home"
+    sortBy="release_date"
+  >
+    <div
+      className="infoLine"
+    >
+      <HomeResults
+        moviesFound={2}
+        sortBy="release_date"
+      >
+        <div>
+          2 movies found
+        </div>
+        <div
+          className="rightSection"
+        >
+          Sort by
+          <Button
+            className="selected"
+            onClick={[Function]}
+            title="release date"
+          >
+            <button
+              className="button selected "
+              onClick={[Function]}
+            >
+              release date
+            </button>
+          </Button>
+          <Button
+            className=""
+            onClick={[Function]}
+            title="rating"
+          >
+            <button
+              className="button  "
+              onClick={[Function]}
+            >
+              rating
+            </button>
+          </Button>
+        </div>
+      </HomeResults>
+    </div>
+  </InfoLineContainer>
+  <Results>
+    <Grid>
+      <div
+        className="row"
+      >
+        <div
+          className="movie"
+          key="8388"
+        >
+          <Movie
+            budget={25000000}
+            genres={
+              Array [
+                "Comedy",
+                "Western",
+              ]
+            }
+            id={8388}
+            overview="Three unemployed actors accept an invitation to a Mexican village to replay their bandit fighter roles, unaware that it is the real thing."
+            poster_path="https://image.tmdb.org/t/p/w500/zuTwahw966MoFwD7B2SFujaT5yp.jpg"
+            release_date="1986-12-12"
+            revenue={0}
+            runtime={102}
+            tagline="They're Down On Their Luck And Up To Their Necks In Senoritas, Margaritas, Banditos And Bullets!"
+            title="¡Three Amigos!"
+            vote_average={6.2}
+            vote_count={327}
+          >
+            <div
+              className="image"
+            >
+              <img
+                alt="¡Three Amigos!"
+                src="https://image.tmdb.org/t/p/w500/zuTwahw966MoFwD7B2SFujaT5yp.jpg"
+              />
+            </div>
+            <div
+              className="header"
+            >
+              <div
+                className="movieTitle"
+              >
+                ¡Three Amigos!
+              </div>
+              <div
+                className="movieDate"
+              >
+                1986
+              </div>
+            </div>
+            <div
+              className="genre"
+            >
+              Comedy & Western
+            </div>
+          </Movie>
+        </div>
+        <div
+          className="movie"
+          key="252178"
+        >
+          <Movie
+            budget={0}
+            genres={
+              Array [
+                "Thriller",
+                "Action",
+                "Drama",
+                "War",
+              ]
+            }
+            id={252178}
+            overview="A young British soldier must find his way back to safety after his unit accidentally abandons him during a riot in the streets of Belfast."
+            poster_path="https://image.tmdb.org/t/p/w500/b8dmfG84peFdouN2N8wOsiI9WHt.jpg"
+            release_date="2014-10-10"
+            revenue={1625847}
+            runtime={99}
+            tagline=""
+            title="'71"
+            vote_average={6.7}
+            vote_count={501}
+          >
+            <div
+              className="image"
+            >
+              <img
+                alt="'71"
+                src="https://image.tmdb.org/t/p/w500/b8dmfG84peFdouN2N8wOsiI9WHt.jpg"
+              />
+            </div>
+            <div
+              className="header"
+            >
+              <div
+                className="movieTitle"
+              >
+                '71
+              </div>
+              <div
+                className="movieDate"
+              >
+                2014
+              </div>
+            </div>
+            <div
+              className="genre"
+            >
+              Thriller & Action & Drama & War
+            </div>
+          </Movie>
+        </div>
+        <div
+          className="movie"
+          key="19913"
+        >
+          <Movie
+            budget={7500000}
+            genres={
+              Array [
+                "Comedy",
+                "Drama",
+                "Romance",
+              ]
+            }
+            id={19913}
+            overview="Tom, greeting-card writer and hopeless romantic, is caught completely off-guard when his girlfriend, Summer, suddenly dumps him. He reflects on their 500 days together to try to figure out where their love affair went sour, and in doing so, Tom rediscovers his true passions in life."
+            poster_path="https://image.tmdb.org/t/p/w500/5SjtNPD1bb182vzQccvEUpXHFjN.jpg"
+            release_date="2009-07-17"
+            revenue={60722734}
+            runtime={95}
+            tagline="This is not a love story. This is a story about love."
+            title="(500) Days of Summer"
+            vote_average={7.2}
+            vote_count={3870}
+          >
+            <div
+              className="image"
+            >
+              <img
+                alt="(500) Days of Summer"
+                src="https://image.tmdb.org/t/p/w500/5SjtNPD1bb182vzQccvEUpXHFjN.jpg"
+              />
+            </div>
+            <div
+              className="header"
+            >
+              <div
+                className="movieTitle"
+              >
+                (500) Days of Summer
+              </div>
+              <div
+                className="movieDate"
+              >
+                2009
+              </div>
+            </div>
+            <div
+              className="genre"
+            >
+              Comedy & Drama & Romance
+            </div>
+          </Movie>
+        </div>
+        <div
+          className="movie"
+          key="8329"
+        >
+          <Movie
+            budget={1500000}
+            genres={
+              Array [
+                "Horror",
+                "Mystery",
+              ]
+            }
+            id={8329}
+            overview="A television reporter and cameraman follow emergency workers into a dark apartment building and are quickly locked inside with something terrifying."
+            poster_path="https://image.tmdb.org/t/p/w500/lLSXs26iZe0aIzYrobr3FruUG36.jpg"
+            release_date="2007-04-10"
+            revenue={30448000}
+            runtime={78}
+            tagline="One witness. One camera"
+            title="[REC]"
+            vote_average={7.1}
+            vote_count={1201}
+          >
+            <div
+              className="image"
+            >
+              <img
+                alt="[REC]"
+                src="https://image.tmdb.org/t/p/w500/lLSXs26iZe0aIzYrobr3FruUG36.jpg"
+              />
+            </div>
+            <div
+              className="header"
+            >
+              <div
+                className="movieTitle"
+              >
+                [REC]
+              </div>
+              <div
+                className="movieDate"
+              >
+                2007
+              </div>
+            </div>
+            <div
+              className="genre"
+            >
+              Horror & Mystery
+            </div>
+          </Movie>
+        </div>
+        <div
+          className="movie"
+          key="455656"
+        >
+          <Movie
+            budget={0}
+            genres={
+              Array [
+                "Comedy",
+              ]
+            }
+            id={455656}
+            overview="When nerdy high schooler Dani finally attracts the interest of her longtime crush, she lands in the cross hairs of his ex, a social media celebrity."
+            poster_path="https://image.tmdb.org/t/p/w500/wUXT3KEh6vjDzwYKiYWwdJNfZOW.jpg"
+            release_date="2017-07-17"
+            revenue={0}
+            runtime={99}
+            tagline=""
+            title="#realityhigh"
+            vote_average={6.5}
+            vote_count={200}
+          >
+            <div
+              className="image"
+            >
+              <img
+                alt="#realityhigh"
+                src="https://image.tmdb.org/t/p/w500/wUXT3KEh6vjDzwYKiYWwdJNfZOW.jpg"
+              />
+            </div>
+            <div
+              className="header"
+            >
+              <div
+                className="movieTitle"
+              >
+                #realityhigh
+              </div>
+              <div
+                className="movieDate"
+              >
+                2017
+              </div>
+            </div>
+            <div
+              className="genre"
+            >
+              Comedy
+            </div>
+          </Movie>
+        </div>
+        <div
+          className="movie"
+          key="333371"
+        >
+          <Movie
+            budget={15000000}
+            genres={
+              Array [
+                "Thriller",
+                "Science Fiction",
+                "Drama",
+              ]
+            }
+            id={333371}
+            overview="After getting in a car accident, a woman is held in a shelter with two men, who claim the outside world is affected by a widespread chemical attack."
+            poster_path="https://image.tmdb.org/t/p/w500/aeiVxTSTeGJ2ICf1iSDXkF3ivZp.jpg"
+            release_date="2016-03-10"
+            revenue={108286421}
+            runtime={103}
+            tagline="Monsters come in many forms."
+            title="10 Cloverfield Lane"
+            vote_average={6.9}
+            vote_count={3323}
+          >
+            <div
+              className="image"
+            >
+              <img
+                alt="10 Cloverfield Lane"
+                src="https://image.tmdb.org/t/p/w500/aeiVxTSTeGJ2ICf1iSDXkF3ivZp.jpg"
+              />
+            </div>
+            <div
+              className="header"
+            >
+              <div
+                className="movieTitle"
+              >
+                10 Cloverfield Lane
+              </div>
+              <div
+                className="movieDate"
+              >
+                2016
+              </div>
+            </div>
+            <div
+              className="genre"
+            >
+              Thriller & Science Fiction & Drama
+            </div>
+          </Movie>
+        </div>
+        <div
+          className="movie"
+          key="4951"
+        >
+          <Movie
+            budget={16000000}
+            genres={
+              Array [
+                "Comedy",
+                "Romance",
+                "Drama",
+              ]
+            }
+            id={4951}
+            overview="Bianca, a tenth grader, has never gone on a date, but she isn't allowed to go out with boys until her older sister Kat gets a boyfriend. The problem is, Kat rubs nearly everyone the wrong way. But Bianca and the guy she has her eye on, Joey, are eager, so Joey fixes Kat up with Patrick, a new kid in town just bitter enough for Kat."
+            poster_path="https://image.tmdb.org/t/p/w500/paS5plbzKz3PYddxky6svYYz3hS.jpg"
+            release_date="1999-03-30"
+            revenue={53478166}
+            runtime={97}
+            tagline="How do I loathe thee? Let me count the ways."
+            title="10 Things I Hate About You"
+            vote_average={7.4}
+            vote_count={2313}
+          >
+            <div
+              className="image"
+            >
+              <img
+                alt="10 Things I Hate About You"
+                src="https://image.tmdb.org/t/p/w500/paS5plbzKz3PYddxky6svYYz3hS.jpg"
+              />
+            </div>
+            <div
+              className="header"
+            >
+              <div
+                className="movieTitle"
+              >
+                10 Things I Hate About You
+              </div>
+              <div
+                className="movieDate"
+              >
+                1999
+              </div>
+            </div>
+            <div
+              className="genre"
+            >
+              Comedy & Romance & Drama
+            </div>
+          </Movie>
+        </div>
+        <div
+          className="movie"
+          key="7840"
+        >
+          <Movie
+            budget={105000000}
+            genres={
+              Array [
+                "Adventure",
+                "Action",
+                "Drama",
+                "Fantasy",
+              ]
+            }
+            id={7840}
+            overview="A prehistoric epic that follows a young mammoth hunter's journey through uncharted territory to secure the future of his tribe."
+            poster_path="https://image.tmdb.org/t/p/w500/hlt9xHt2gqF6qy2u0GD77Iii3yV.jpg"
+            release_date="2008-02-22"
+            revenue={266000000}
+            runtime={109}
+            tagline="The legend. The battle. The first hero."
+            title="10,000 BC"
+            vote_average={5.2}
+            vote_count={1158}
+          >
+            <div
+              className="image"
+            >
+              <img
+                alt="10,000 BC"
+                src="https://image.tmdb.org/t/p/w500/hlt9xHt2gqF6qy2u0GD77Iii3yV.jpg"
+              />
+            </div>
+            <div
+              className="header"
+            >
+              <div
+                className="movieTitle"
+              >
+                10,000 BC
+              </div>
+              <div
+                className="movieDate"
+              >
+                2008
+              </div>
+            </div>
+            <div
+              className="genre"
+            >
+              Adventure & Action & Drama & Fantasy
+            </div>
+          </Movie>
+        </div>
+        <div
+          className="movie"
+          key="11674"
+        >
+          <Movie
+            budget={54000000}
+            genres={
+              Array [
+                "Comedy",
+                "Family",
+              ]
+            }
+            id={11674}
+            overview="The Live action adaptation of a Disney Classic. When a litter of dalmatian puppies are abducted by the minions of Cruella De Vil, the parents must find them before she uses them for a diabolical fashion statement."
+            poster_path="https://image.tmdb.org/t/p/w500/pdVFUWxxDB5qt1RhcMp9A88IcGU.jpg"
+            release_date="1996-11-17"
+            revenue={320689294}
+            runtime={103}
+            tagline="So many dogs. So little time."
+            title="101 Dalmatians"
+            vote_average={5.6}
+            vote_count={972}
+          >
+            <div
+              className="image"
+            >
+              <img
+                alt="101 Dalmatians"
+                src="https://image.tmdb.org/t/p/w500/pdVFUWxxDB5qt1RhcMp9A88IcGU.jpg"
+              />
+            </div>
+            <div
+              className="header"
+            >
+              <div
+                className="movieTitle"
+              >
+                101 Dalmatians
+              </div>
+              <div
+                className="movieDate"
+              >
+                1996
+              </div>
+            </div>
+            <div
+              className="genre"
+            >
+              Comedy & Family
+            </div>
+          </Movie>
+        </div>
+        <div
+          className="movie"
+          key="13654"
+        >
+          <Movie
+            budget={0}
+            genres={
+              Array [
+                "Animation",
+                "Family",
+              ]
+            }
+            id={13654}
+            overview="Being one of 101 takes its toll on Patch, who doesn't feel unique. When he's accidentally left behind on moving day, he meets his idol, Thunderbolt, who enlists him on a publicity campaign."
+            poster_path="https://image.tmdb.org/t/p/w500/ht4h6I7WwaZa1E8xzb1jE94mDvS.jpg"
+            release_date="2003-01-21"
+            revenue={0}
+            runtime={70}
+            tagline="A New Hero Unleashed."
+            title="101 Dalmatians II: Patch's London Adventure"
+            vote_average={5.7}
+            vote_count={328}
+          >
+            <div
+              className="image"
+            >
+              <img
+                alt="101 Dalmatians II: Patch's London Adventure"
+                src="https://image.tmdb.org/t/p/w500/ht4h6I7WwaZa1E8xzb1jE94mDvS.jpg"
+              />
+            </div>
+            <div
+              className="header"
+            >
+              <div
+                className="movieTitle"
+              >
+                101 Dalmatians II: Patch's London Adventure
+              </div>
+              <div
+                className="movieDate"
+              >
+                2003
+              </div>
+            </div>
+            <div
+              className="genre"
+            >
+              Animation & Family
+            </div>
+          </Movie>
+        </div>
+      </div>
+    </Grid>
+  </Results>
+  <Footer>
+    <div
+      className="footer"
+    >
+      <LogoContainer>
+        <Logo
+          text="netflixroulette"
+        >
+          <div
+            className="logo"
+          >
+            netflixroulette
+          </div>
+        </Logo>
+      </LogoContainer>
+    </div>
+  </Footer>
+</Home>
+`;

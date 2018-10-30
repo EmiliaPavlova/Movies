@@ -27,7 +27,6 @@ describe('InfoLineContainer', () => {
     it('Should return InfoLine', () => {
       const props = componentProps();
       const wrapper = mountInfoLineContainer(props);
-      console.log(wrapper.debug());
     })
   })
 });

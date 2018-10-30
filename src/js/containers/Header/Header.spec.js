@@ -10,6 +10,6 @@ describe('Header', () => {
     it('matches the snapshot', () => {
       const wrapper = mountHeader();
       expect(wrapper).toMatchSnapshot();
-    })
+    });
   });
 });

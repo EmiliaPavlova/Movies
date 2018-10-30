@@ -16,8 +16,8 @@ const HomeResults = ({
       <div>{result}</div>
       <div className='rightSection'>
         Sort by
-        <Button title='release date' className={sortBy === 'release_date' ? 'selected' : ''} />
-        <Button title='rating' className={sortBy === 'vote_average' ? 'selected' : ''} />
+        <Button title='release date' className={sortBy === 'release_date' ? 'selected' : ''} onClick={() => {}} />
+        <Button title='rating' className={sortBy === 'vote_average' ? 'selected' : ''} onClick={() => {}} />
       </div>
     </Fragment>
   )

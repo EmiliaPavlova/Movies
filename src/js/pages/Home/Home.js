@@ -18,7 +18,7 @@ class Home extends Component {
     return (
       <Fragment>
         <Header />
-        <InfoLine />
+        <InfoLine page='home' moviesFound={2} sortBy='release_date' />
         <Results />
         <Footer />
       </Fragment>

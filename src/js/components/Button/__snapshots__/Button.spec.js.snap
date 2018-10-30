@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Button attributes matches the snapshot 1`] = `
+<Button
+  className="class"
+  onClick={[MockFunction]}
+  selected={false}
+  title="Button"
+>
+  <button
+    className="button class "
+    onClick={[MockFunction]}
+  >
+    Button
+  </button>
+</Button>
+`;

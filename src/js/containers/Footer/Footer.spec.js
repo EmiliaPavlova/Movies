@@ -10,6 +10,6 @@ describe('Footer', () => {
     it('matches the snapshot', () => {
       const wrapper = mountFooter();
       expect(wrapper).toMatchSnapshot();
-    })
+    });
   });
 });
