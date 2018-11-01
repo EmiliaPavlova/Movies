@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 
-const DetailsResults = ({ genre = 'Drama' }) => {
+const DetailsResults = ({ genre }) => {
 
   return (
     <Fragment>

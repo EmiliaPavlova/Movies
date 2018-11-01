@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchContainer SearchContainer attributes matches the snapshot 1`] = `
+<SearchContainer>
+  <div
+    className="searchWrapper"
+  >
+    <Search
+      actionButton={
+        <Button
+          className="submitButton"
+          onClick={[Function]}
+          title="Search"
+          type="submit"
+        />
+      }
+      conditions={
+        <div
+          className="label"
+        >
+          Search by
+          <div
+            className="condition"
+          >
+            <Button
+              className="searchButton"
+              onClick={[Function]}
+              title="Title"
+            />
+          </div>
+          <div
+            className="condition"
+          >
+            <Button
+              className="searchButton"
+              onClick={[Function]}
+              title="Genre"
+            />
+          </div>
+        </div>
+      }
+      title="Find your movie"
+    >
+      <div
+        className="title"
+      >
+        Find your movie
+      </div>
+      <input />
+      <div
+        className="buttons"
+      >
+        <div
+          className="label"
+        >
+          Search by
+          <div
+            className="condition"
+            key="0"
+          >
+            <Button
+              className="searchButton"
+              onClick={[Function]}
+              title="Title"
+            >
+              <button
+                className="button searchButton "
+                onClick={[Function]}
+              >
+                Title
+              </button>
+            </Button>
+          </div>
+          <div
+            className="condition"
+            key="1"
+          >
+            <Button
+              className="searchButton"
+              onClick={[Function]}
+              title="Genre"
+            >
+              <button
+                className="button searchButton "
+                onClick={[Function]}
+              >
+                Genre
+              </button>
+            </Button>
+          </div>
+        </div>
+        <span
+          className="actionButton"
+        >
+          <Button
+            className="submitButton"
+            onClick={[Function]}
+            title="Search"
+            type="submit"
+          >
+            <button
+              className="button submitButton "
+              onClick={[Function]}
+              type="submit"
+            >
+              Search
+            </button>
+          </Button>
+        </span>
+      </div>
+    </Search>
+  </div>
+</SearchContainer>
+`;

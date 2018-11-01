@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer Snapshot matches the snapshot 1`] = `
+<Footer>
+  <div
+    className="footer"
+  >
+    <LogoContainer>
+      <Logo
+        text="netflixroulette"
+      >
+        <div
+          className="logo"
+        >
+          netflixroulette
+        </div>
+      </Logo>
+    </LogoContainer>
+  </div>
+</Footer>
+`;

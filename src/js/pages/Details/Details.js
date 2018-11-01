@@ -11,7 +11,7 @@ class Details extends Component {
     return (
       <Fragment>
         <Header />
-        <InfoLine page='home' />
+        <InfoLine page='details' />
         <Results />
         <Footer />
       </Fragment>

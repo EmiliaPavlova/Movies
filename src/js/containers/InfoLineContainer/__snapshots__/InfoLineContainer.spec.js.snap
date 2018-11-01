@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InfoLineContainer Snapshot matches the snapshot for Details page: Details page 1`] = `
+<InfoLineContainer
+  moviesFound={2}
+  page="details"
+  sortBy="release_date"
+>
+  <div
+    className="infoLine"
+  >
+    <DetailsResults
+      genre="Drama"
+    >
+      <div>
+        Films by 
+        Drama
+         genre
+      </div>
+    </DetailsResults>
+  </div>
+</InfoLineContainer>
+`;
+
+exports[`InfoLineContainer Snapshot matches the snapshot for Home page: Home page 1`] = `
+<InfoLineContainer
+  moviesFound={2}
+  page="home"
+  sortBy="release_date"
+>
+  <div
+    className="infoLine"
+  >
+    <HomeResults
+      moviesFound={2}
+      sortBy="release_date"
+    >
+      <div>
+        2 movies found
+      </div>
+      <div
+        className="rightSection"
+      >
+        Sort by
+        <Button
+          className="selected"
+          onClick={[Function]}
+          title="release date"
+        >
+          <button
+            className="button selected "
+            onClick={[Function]}
+          >
+            release date
+          </button>
+        </Button>
+        <Button
+          className=""
+          onClick={[Function]}
+          title="rating"
+        >
+          <button
+            className="button  "
+            onClick={[Function]}
+          >
+            rating
+          </button>
+        </Button>
+      </div>
+    </HomeResults>
+  </div>
+</InfoLineContainer>
+`;

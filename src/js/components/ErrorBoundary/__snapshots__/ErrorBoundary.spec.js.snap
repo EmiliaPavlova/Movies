@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorBoundary ErrorBoundary attributes matches the snapshot 1`] = `
+<ErrorBoundary>
+  <div>
+    Component with an error
+  </div>
+</ErrorBoundary>
+`;

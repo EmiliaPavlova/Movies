@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeResults HomeResults attributes matches the snapshot for only one movie found: One movie found 1`] = `
+<HomeResults
+  moviesFound={1}
+  sortBy="release_date"
+>
+  <div>
+    1 movie found
+  </div>
+  <div
+    className="rightSection"
+  >
+    Sort by
+    <Button
+      className="selected"
+      onClick={[Function]}
+      title="release date"
+    >
+      <button
+        className="button selected "
+        onClick={[Function]}
+      >
+        release date
+      </button>
+    </Button>
+    <Button
+      className=""
+      onClick={[Function]}
+      title="rating"
+    >
+      <button
+        className="button  "
+        onClick={[Function]}
+      >
+        rating
+      </button>
+    </Button>
+  </div>
+</HomeResults>
+`;
+
+exports[`HomeResults HomeResults attributes matches the snapshot for sort by release_date: Sort by release_date 1`] = `
+<HomeResults
+  moviesFound={2}
+  sortBy="release_date"
+>
+  <div>
+    2 movies found
+  </div>
+  <div
+    className="rightSection"
+  >
+    Sort by
+    <Button
+      className="selected"
+      onClick={[Function]}
+      title="release date"
+    >
+      <button
+        className="button selected "
+        onClick={[Function]}
+      >
+        release date
+      </button>
+    </Button>
+    <Button
+      className=""
+      onClick={[Function]}
+      title="rating"
+    >
+      <button
+        className="button  "
+        onClick={[Function]}
+      >
+        rating
+      </button>
+    </Button>
+  </div>
+</HomeResults>
+`;
+
+exports[`HomeResults HomeResults attributes matches the snapshot for sort by vote_average: Sort by vote_average 1`] = `
+<HomeResults
+  moviesFound={2}
+  sortBy="vote_average"
+>
+  <div>
+    2 movies found
+  </div>
+  <div
+    className="rightSection"
+  >
+    Sort by
+    <Button
+      className=""
+      onClick={[Function]}
+      title="release date"
+    >
+      <button
+        className="button  "
+        onClick={[Function]}
+      >
+        release date
+      </button>
+    </Button>
+    <Button
+      className="selected"
+      onClick={[Function]}
+      title="rating"
+    >
+      <button
+        className="button selected "
+        onClick={[Function]}
+      >
+        rating
+      </button>
+    </Button>
+  </div>
+</HomeResults>
+`;

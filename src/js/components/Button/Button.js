@@ -6,7 +6,7 @@ const Button = ({
   title,
   className,
   selected,
-  onClick = () => { },
+  onClick,
   ...rest
 }) => {
   const classNames = `button ${className ? className : ''} ${selected ? 'selected' : ''}`;
@@ -22,7 +22,7 @@ Button.propTypes = {
   title: PropTypes.string,
   className: PropTypes.string,
   selected: PropTypes.bool,
-  onClick: PropTypes.func
+  onClick: PropTypes.func.isRequired
 };
 
 export default Button;
