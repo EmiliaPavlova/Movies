@@ -7,7 +7,8 @@
     "start": "webpack-dev-server --open --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
     "test": "node scripts/test.js --env=jsdom",
-    "test:ci": "npm run test -- --coverage"
+    "test:c": "npm run test -- --coverage",
+    "test:e2e": "cypress open"
   },
   "author": "Emilia Pavlova",
   "license": "ISC",
@@ -29,6 +30,7 @@
     "babel-loader": "^8.0.4",
     "clean-webpack-plugin": "^0.1.19",
     "css-loader": "^1.0.0",
+    "cypress": "^3.1.0",
     "enzyme": "^3.7.0",
     "enzyme-adapter-react-16": "^1.6.0",
     "enzyme-to-json": "^3.3.4",
