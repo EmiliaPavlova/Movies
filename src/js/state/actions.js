@@ -9,10 +9,10 @@ import {
 
 export const searchByTitle = title => ({
   type: SEARCH_BY_TITLE,
-  payload: {
-    url,
-    title,
-    genre,
-    release_date
-  }
+  payload: title
+});
+
+export const searchByGenre = genre => ({
+  type: SEARCH_BY_GENRE,
+  payload: genre
 });
