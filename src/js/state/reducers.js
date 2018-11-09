@@ -1,6 +1,7 @@
 import {
-  SEARCH_BY_TITLE,
-  SEARCH_BY_GENRE,
+  GET_MOVIES,
+  // SEARCH_BY_TITLE,
+  // SEARCH_BY_GENRE,
   SEARCH_FOR_MOVIE,
   SORT_BY_DATE,
   SORT_BY_RATING,
@@ -201,10 +202,12 @@ export const initialState = {
 
 export const moviesApp = (state = initialState, action) => {
   switch (action.type) {
-    case SEARCH_BY_TITLE:
+    case GET_MOVIES:
       return { ...state };
-    case SEARCH_BY_GENRE:
-      return { ...state };
+    // case SEARCH_BY_TITLE:
+    //   return { ...state };
+    // case SEARCH_BY_GENRE:
+    //   return { ...state };
     case SEARCH_FOR_MOVIE:
       return { ...state };
     case SORT_BY_DATE:
